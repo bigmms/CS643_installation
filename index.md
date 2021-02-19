@@ -353,8 +353,8 @@ sudo update-alternatives --config javaws
 
 PC^2 is mostly written in Java (using *Eclipse*) and is intended to run on any Java 1.7 (or greater) platform, including Windows, Mac OS X (10.4+) and a variety of Unix-based systems including Solaris, Linux, and FreeBSD.
 
-1. Use the below to install the PC^2 for your operating system. The file that you download is a zip archive. 
-   
+1. Use the below to install the PC^2 for your operating system. The file that you download is a zip archive.
+
 * [PC^2 v9.5.3](/util/pc2-cs643.zip)
 
 2. Simply double*-*click on the Zip archive to unzip it. Use your **File Explorer**, navigate to `\pc2-CS643\bin` to run the bat file `pc2team.bat`. You should see a login page like:
