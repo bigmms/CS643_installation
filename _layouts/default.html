@@ -15,7 +15,7 @@
   <body>
     <div class="wrapper">
       <header>
-        <!-- <h1 class="header">{{ site.title | default: site.github.repository_name }}</h1>
+        <h1 class="header">{{ site.title | default: site.github.repository_name }}</h1>
         <p class="header">{{ site.description | default: site.github.project_tagline }}</p>
 
         <ul>
@@ -34,9 +34,8 @@
           <ul>
             <li><a class="buttons github" href="{{ site.github.owner_url }}">GitHub Profile</a></li>
           </ul>
-        {% endif %} -->
-		<h1 class="header">{% include toc.html html=content %}</h1>
-		<p class="header">{% include toc.html html=content %}</p>
+        {% endif %}
+		<p><small>{% include toc.html html=content %}</small></p>
 		
       </header>
 
