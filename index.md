@@ -1,10 +1,10 @@
-# Software Installation Instructions in IN208
+# Software Installation Instructions in CS643
 
 This semester, we are standardizing on the following variant of Python: **Anaconda's Python 3.6.x**, where "**x**" can be any number. 
 
 You may have your own computer and wish to install this semester's version of Python on it. Installing Python can be more complicated than using it. We have tried to make installation as simple as possible via step-by-step instructions. It's okay if you don't understand all the steps. Also, these instructions are lengthy because we are trying to support multiple operating systems. In practice, *you should be able to finish the installation in 15-20 minutes*.
 
-If you have problems, and if you have a laptop, the best thing to do is to bring it in to someone to look at. Any of the TAs can help you with this. If you cannot bring in your computer, we have provided you with some diagnostic instructions below. If you are having difficulty with these instructions, feel free to post your questions on Piazza ([Sign up for piazza here](https://piazza.com/yzu.edu.tw/spring2021/in208)) or [reach out to me](https://calendly.com/bhchen/15min?month=2020-02) during my office hour.
+If you have problems, and if you have a laptop, the best thing to do is to bring it in to someone to look at. Any of the TAs can help you with this. If you cannot bring in your computer, we have provided you with some diagnostic instructions below. If you are having difficulty with these instructions, feel free to post your questions on Piazza ([Sign up for piazza here](https://piazza.com/yzu.edu.tw/spring2021/CS643)) or [reach out to me](https://calendly.com/bhchen/15min?month=2020-02) during my office hour.
 
 # Install Python 
 
@@ -48,8 +48,8 @@ The easiest way to start Anaconda command prompt is just type **Anaconda prompt*
 3. In your Anaconda Prompt, run:
 
 ~~~ bash
-conda create -n IN208 python=3.6 numpy scipy pip
-activate IN208
+conda create -n CS643 python=3.6 numpy scipy pip
+activate CS643
 ~~~
 
 4. Once you have finished, you are ready to [install PyCharm](#install-pycharm).
@@ -100,8 +100,8 @@ The easiest way to start Anaconda command prompt is just type **Anaconda prompt*
 
 ~~~ bash
 activate
-conda create -n IN208 python=3.6 numpy scipy pip
-activate IN208
+conda create -n CS643 python=3.6 numpy scipy pip
+activate CS643
 ~~~
 
 4. Once this is done, you are ready to [install PyCharm](#install-pycharm).
@@ -145,8 +145,8 @@ source ~/.profile
 
 ~~~ bash
 source activate
-conda create -n IN208 python=3.6 numpy scipy pip
-source activate IN208
+conda create -n CS643 python=3.6 numpy scipy pip
+source activate CS643
 ~~~
 
 3. Once this is done, you are ready to [install PyCharm](#install-pycharm).
@@ -247,9 +247,9 @@ Using the PyCharm requires a bit of practice, so we have created a separate [pag
 
    ![](imgs\windows-pycharm-pyfile.fw.png)
 
-3. To get the `.py` file to do something, just type a `print("Hello IN208!")` and hit the Run button. You should see something like:
+3. To get the `.py` file to do something, just type a `print("Hello CS643!")` and hit the Run button. You should see something like:
 
-   ![](imgs\windows-pycharm-in208.png)
+   ![](imgs\windows-pycharm-CS643.png)
 
 4. You have a working installation of Anaconda Python 3.6 + PyCharm on your OS.
 
@@ -257,7 +257,7 @@ Using the PyCharm requires a bit of practice, so we have created a separate [pag
 
 **PC^2** is the **P**rogramming **C**ontest **C**ontrol System developed at California State University, Sacramento (**CSUS**) in support of Computer Programming Contest activities, and in particular the [International Collegiate Programming Contest (ICPC)](http://icpc.baylor.edu/icpc/) and its Local and Regional Contests around the world.
 
-Because of its success in local and regional programming contests around the world, we are exciting to use the **PC^2** to include IN208. This system will give you immediate feedback while you are waiting on help from a course staff member. In addition, it gives you an opportunity to complete a homework on your own under your account.
+Because of its success in local and regional programming contests around the world, we are exciting to use the **PC^2** to include CS643. This system will give you immediate feedback while you are waiting on help from a course staff member. In addition, it gives you an opportunity to complete a homework on your own under your account.
 
 ## Install JDK for PC^2
 
@@ -354,9 +354,10 @@ sudo update-alternatives --config javaws
 PC^2 is mostly written in Java (using *Eclipse*) and is intended to run on any Java 1.7 (or greater) platform, including Windows, Mac OS X (10.4+) and a variety of Unix-based systems including Solaris, Linux, and FreeBSD.
 
 1. Use the below to install the PC^2 for your operating system. The file that you download is a zip archive. 
-   * [PC^2 v9.5.3](http://140.138.152.165:5000/sharing/9OcLnOL2U)
-
-2. Simply double*-*click on the Zip archive to unzip it. Use your **File Explorer**, navigate to `\pc2-IN208\bin` to run the bat file `pc2team.bat`. You should see a login page like:
+   
+* [PC^2 v9.5.3](http://140.138.152.165:5000/sharing/9OcLnOL2U)
+   
+2. Simply double*-*click on the Zip archive to unzip it. Use your **File Explorer**, navigate to `\pc2-CS643\bin` to run the bat file `pc2team.bat`. You should see a login page like:
 
    ![](imgs\windows-pc2-login.jpg)
 
@@ -376,4 +377,4 @@ PC^2 is mostly written in Java (using *Eclipse*) and is intended to run on any J
 
 # Support or Contact
 
-Having trouble with your setup? Check out our class discussion [here](https://piazza.com/yzu.edu.tw/spring2021/in208) and we’ll help you sort it out.
+Having trouble with your setup? Check out our class discussion [here](https://piazza.com/yzu.edu.tw/spring2021/CS643) and we’ll help you sort it out.
